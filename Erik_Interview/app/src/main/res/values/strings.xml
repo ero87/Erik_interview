@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyTask1</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="name">NAME:</string>
+    <string name="phone">PHONE:</string>
+    <string name="email">EMAIL:</string>
+    <string name="gender">GENDER:</string>
+    <string name="nationality">NATIONALITY:</string>
+</resources>

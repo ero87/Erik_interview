@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitys.InfoActivity"
+    tools:showIn="@layout/activity_info">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/name_margin"
+                android:text="@string/name"
+                android:textSize="@dimen/info_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/name_margin"
+                android:textSize="@dimen/getText_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/name_margin"
+                android:text="@string/phone"
+                android:textSize="@dimen/info_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/name_margin"
+                android:textSize="@dimen/getText_size" />
+
+            <ImageButton
+                android:id="@+id/phone_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginTop="@dimen/name_margin"
+                android:background="@null"
+                android:src="@drawable/ic_phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/name_margin"
+                android:text="@string/email"
+                android:textSize="@dimen/info_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/name_margin"
+                android:textSize="@dimen/email_text_size" />
+
+            <ImageButton
+                android:id="@+id/mail_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/mail_button"
+                android:layout_marginTop="@dimen/name_margin"
+                android:background="@null"
+                android:src="@drawable/ic_email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/name_margin"
+                android:text="@string/gender"
+                android:textSize="@dimen/info_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/name_margin"
+                android:textSize="@dimen/getText_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/name_margin"
+                android:text="@string/nationality"
+                android:textSize="@dimen/info_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_national"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/name_margin"
+                android:textSize="@dimen/info_text_size" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

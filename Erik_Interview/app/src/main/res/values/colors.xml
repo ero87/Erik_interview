@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="girlColor">#8a9ccf</color>
+    <color name="boyColor">#c27894</color>
+    <color name="backgroundColor">#cce7ad</color>
+    <color name="mail_background_color">#a1e7da</color>
+</resources>
